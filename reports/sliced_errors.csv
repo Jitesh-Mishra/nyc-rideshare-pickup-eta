@@ -1,0 +1,37 @@
+slice,value,model,n,mae_min,pinball50,pinball90,p90_coverage,bias_min
+borough,Bronx,B0_zone_how_median,171059,1.989,0.9945,0.63,0.8659,-0.5195
+borough,Bronx,M1_lightgbm,171059,1.8808,0.9404,0.5611,0.892,-0.5173
+borough,Bronx,M2_torch_embed,171059,1.8783,0.9391,0.5574,0.8944,-0.5187
+borough,Brooklyn,B0_zone_how_median,397383,1.8853,0.9427,0.5858,0.8489,-0.6687
+borough,Brooklyn,M1_lightgbm,397383,1.7756,0.8878,0.5157,0.8887,-0.5405
+borough,Brooklyn,M2_torch_embed,397383,1.7728,0.8864,0.5134,0.889,-0.5347
+borough,Manhattan,B0_zone_how_median,528239,1.8043,0.9022,0.5473,0.868,-0.502
+borough,Manhattan,M1_lightgbm,528239,1.7061,0.853,0.4943,0.8961,-0.4368
+borough,Manhattan,M2_torch_embed,528239,1.7079,0.854,0.4936,0.8971,-0.4343
+borough,Queens,B0_zone_how_median,315390,2.2038,1.1019,0.6666,0.8582,-0.7768
+borough,Queens,M1_lightgbm,315390,2.0819,1.0409,0.5988,0.8879,-0.6215
+borough,Queens,M2_torch_embed,315390,2.0841,1.0421,0.5946,0.8932,-0.621
+borough,Staten Island,B0_zone_how_median,17835,2.2794,1.1397,0.7585,0.8359,-0.608
+borough,Staten Island,M1_lightgbm,17835,2.1483,1.0741,0.6489,0.8798,-0.6932
+borough,Staten Island,M2_torch_embed,17835,2.1457,1.0728,0.6444,0.8922,-0.6228
+hour_bucket,00-05 night,B0_zone_how_median,192576,2.0093,1.0046,0.6195,0.858,-0.5702
+hour_bucket,00-05 night,M1_lightgbm,192576,1.8938,0.9469,0.552,0.8929,-0.5114
+hour_bucket,00-05 night,M2_torch_embed,192576,1.9023,0.9511,0.5457,0.8948,-0.5238
+hour_bucket,06-09 am peak,B0_zone_how_median,247253,1.8532,0.9266,0.5524,0.8947,-0.1865
+hour_bucket,06-09 am peak,M1_lightgbm,247253,1.7309,0.8655,0.4997,0.9019,-0.3365
+hour_bucket,06-09 am peak,M2_torch_embed,247253,1.7361,0.868,0.5008,0.9042,-0.3434
+hour_bucket,10-15 midday,B0_zone_how_median,390653,1.7742,0.8871,0.5559,0.8475,-0.7372
+hour_bucket,10-15 midday,M1_lightgbm,390653,1.6923,0.8462,0.4969,0.889,-0.5844
+hour_bucket,10-15 midday,M2_torch_embed,390653,1.6938,0.8469,0.4968,0.8879,-0.587
+hour_bucket,16-19 pm peak,B0_zone_how_median,297736,2.0066,1.0033,0.6175,0.8694,-0.5528
+hour_bucket,16-19 pm peak,M1_lightgbm,297736,1.9075,0.9537,0.5549,0.8941,-0.4811
+hour_bucket,16-19 pm peak,M2_torch_embed,297736,1.9004,0.9502,0.5525,0.8979,-0.4766
+hour_bucket,20-23 evening,B0_zone_how_median,301756,2.1302,1.0651,0.6514,0.8393,-0.8854
+hour_bucket,20-23 evening,M1_lightgbm,301756,1.9948,0.9974,0.5743,0.8829,-0.6271
+hour_bucket,20-23 evening,M2_torch_embed,301756,1.9907,0.9953,0.569,0.8873,-0.599
+airport,airport,B0_zone_how_median,57459,3.6774,1.8387,0.9946,0.8787,-1.4617
+airport,airport,M1_lightgbm,57459,3.4047,1.7023,0.8875,0.8917,-0.854
+airport,airport,M2_torch_embed,57459,3.4127,1.7064,0.8785,0.9118,-0.8802
+airport,non-airport,B0_zone_how_median,1372515,1.8704,0.9352,0.5802,0.8591,-0.5768
+airport,non-airport,M1_lightgbm,1372515,1.769,0.8845,0.5184,0.8915,-0.5052
+airport,non-airport,M2_torch_embed,1372515,1.7688,0.8844,0.5164,0.8928,-0.5007

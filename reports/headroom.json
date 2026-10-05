@@ -1,0 +1,9 @@
+{
+  "definition": "zone x 10-min block median of realised waits (uses future labels; ceiling, not a model)",
+  "rows_with_block_n_ge_5": 1196792,
+  "oracle_mae": 1.64773668551706,
+  "B0_zone_how_median_mae_same_rows": 1.945235540790157,
+  "M1_lightgbm_mae_same_rows": 1.8340525977469748,
+  "M2_torch_embed_mae_same_rows": 1.833835475309718,
+  "lgb_share_of_headroom_captured": 0.37372561632588075
+}

@@ -1,0 +1,13 @@
+date,commit,approach,config,split,val_mae_min,val_p90_coverage,runtime_s,notes
+2026-10-05,uncommitted,B0_global_median,train-label quantiles,val,1.9755,0.9044,0.0,v1: 16 features
+2026-10-05,uncommitted,B0_zone_how_median,train-label quantiles,val,1.8419,0.8901,0.0,v1: 16 features
+2026-10-05,uncommitted,M1_lightgbm,"quantile; rows=2000000; iters={0.5: 250, 0.9: 110}",val,1.7744,0.9005,184.7,v1: 16 features
+2026-10-05,uncommitted,M2_torch_embed,MLP256-128+emb; epochs=6,val,1.7775,0.9008,116.6,v1: 16 features
+2026-10-05,uncommitted,B0_global_median,train-label quantiles,val,1.9755,0.9044,0.0,"v2: +open queue, +10-min wait (19 features)"
+2026-10-05,uncommitted,B0_zone_how_median,train-label quantiles,val,1.8419,0.8901,0.0,"v2: +open queue, +10-min wait (19 features)"
+2026-10-05,uncommitted,M1_lightgbm,"quantile; rows=2000000; iters={0.5: 242, 0.9: 108}",val,1.7666,0.9009,101.1,"v2: +open queue, +10-min wait (19 features)"
+2026-10-05,uncommitted,M2_torch_embed,MLP256-128+emb; epochs=6,val,1.7686,0.9056,122.4,"v2: +open queue, +10-min wait (19 features)"
+2026-10-05,uncommitted,B0_global_median,train-label quantiles,val,1.9755,0.9044,0.0,final run = v2 retrained (same seed); test evaluated once after this
+2026-10-05,uncommitted,B0_zone_how_median,train-label quantiles,val,1.8419,0.8901,0.0,final run = v2 retrained (same seed); test evaluated once after this
+2026-10-05,uncommitted,M1_lightgbm,"quantile; rows=2000000; iters={0.5: 242, 0.9: 108}",val,1.7666,0.9009,98.1,final run = v2 retrained (same seed); test evaluated once after this
+2026-10-05,uncommitted,M2_torch_embed,MLP256-128+emb; epochs=6,val,1.7686,0.9056,119.4,final run = v2 retrained (same seed); test evaluated once after this

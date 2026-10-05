@@ -1,0 +1,26 @@
+{
+  "n": 10000,
+  "rows_matching": 10000,
+  "parity_rate": 1.0,
+  "max_abs_diff": {
+    "req_5": 0.0,
+    "req_15": 0.0,
+    "req_60": 0.0,
+    "drop_15": 0.0,
+    "drop_60": 0.0,
+    "ds_ratio_15": 0.0,
+    "wait_mean_30": 0.0,
+    "wait_n_30": 0.0,
+    "wait_mean_10": 0.0,
+    "open_reqs": 0.0,
+    "open_age_mean": 0.0,
+    "hour": 0.0,
+    "dow": 0.0,
+    "how": 0.0,
+    "minute_of_day": 0.0,
+    "zone": 0.0,
+    "borough_id": 0.0,
+    "is_airport": 0.0,
+    "wav": 0.0
+  }
+}

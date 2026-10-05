@@ -1,0 +1,24 @@
+{
+  "setup": "1 uvicorn worker, 2-core cloud VM, model=torch, store warmed by replay to 2025-03-27T18:00:00; local load test, client and server on the same host",
+  "runs": [
+    {
+      "rps_target": 200,
+      "rps_achieved": 199.97641024937687,
+      "n": 6000,
+      "errors": 0,
+      "fallbacks": 0,
+      "client_roundtrip_ms": {
+        "p50": 3.5072420000688,
+        "p95": 5.59867595002288,
+        "p99": 12.897732930039211,
+        "max": 55.16515700014679
+      },
+      "server_compute_ms": {
+        "p50": 1.0656414999630215,
+        "p95": 1.8447896000225235,
+        "p99": 4.547169430079534,
+        "max": 20.51755000002231
+      }
+    }
+  ]
+}

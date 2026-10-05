@@ -1,0 +1,16 @@
+{
+  "rows_total": 5989698,
+  "rows_from_label_start": 5058256,
+  "on_scene_null_rate_before_label_start": 0.9971957459509019,
+  "on_scene_null_rate_from_label_start": 0.0,
+  "negative_wait_rate": 0.016749448821886437,
+  "wait_over_30_rate": 0.0003756235350682132,
+  "label_rows": 4973533,
+  "wait_quantiles_min": {
+    "0.1": 1.3833333333333333,
+    "0.5": 3.65,
+    "0.9": 7.716666666666667,
+    "0.99": 14.483333333333333
+  },
+  "boarding_median_min": 0.75
+}

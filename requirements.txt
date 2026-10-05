@@ -1,0 +1,12 @@
+polars==1.44.2
+duckdb==1.5.6
+lightgbm==4.7.0
+torch==2.14.1
+fastapi==0.142.2
+uvicorn==0.53.0
+httpx==0.28.1
+numpy==2.5.3
+pyarrow==25.0.1
+matplotlib==3.11.2
+pydantic==2.13.5
+pytest==9.1.1
